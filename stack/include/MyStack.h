@@ -6,20 +6,20 @@
 template <class T>
 class TStack {
 protected:
-	int size;
-	int top;
+	size_t size;
+	size_t top;
 	T* mas;
 public:
-	TStack(int n = 0);
+	TStack(size_t size = 1);
 	TStack(TStack<T>& stack);
 	~TStack();
 
 	void Push(T a);
-	T Get();
+	void Pop();
 	T TopView();
 
-	int GetSize();
-	int GetTop();
+	size_t GetSize();
+	size_t GetTop();
 
 	//операторы вводы и выводы
 
@@ -29,5 +29,6 @@ public:
 	TStack<T>& operator=(const TStack<T>& stack);
 };
 
+#include "../src/MyStack.hpp"
 
 #endif

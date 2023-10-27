@@ -1,7 +1,7 @@
 set(nameBaseProj Queue) 
 set(test "${nameBaseProj}_test")
 
-include_directories(include)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 add_subdirectory(samples)
 add_subdirectory(src)
 add_subdirectory(test)
