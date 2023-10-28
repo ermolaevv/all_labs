@@ -3,7 +3,7 @@
 ## Используемые инструменты
 
   - Система контроля версий [Git]. Рекомендуется использовать один из следующих клиентов на выбор:
-    - [Git]((https://git-scm.com/downloads))
+    - [Git](https://git-scm.com/downloads)
     - [GitHub Desktop](https://desktop.github.com)
   - Фреймворк для написания автоматических тестов [Google Test][gtest]. Не    требует установки, идет вместе с проектом.
   - Среда разработки Microsoft Visual Studio.
