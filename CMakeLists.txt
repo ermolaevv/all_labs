@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 2.8...3.13) 
+set (CMAKE_CXX_STANDARD 20)
 
 set(PROJECT_NAME All_labs) 
 project(${PROJECT_NAME})
@@ -17,3 +18,4 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/gtest)
 add_subdirectory(gtest)
 add_subdirectory(stack)
 add_subdirectory(queue)
+add_subdirectory(expression)
