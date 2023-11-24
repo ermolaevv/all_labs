@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 
 #include <vector>
 #include <string>
@@ -176,7 +176,7 @@ namespace CppWinForm1 {
 			this->groupBox1->Size = System::Drawing::Size(404, 376);
 			this->groupBox1->TabIndex = 0;
 			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"Настройки";
+			this->groupBox1->Text = L"РќР°СЃС‚СЂРѕР№РєРё";
 			// 
 			// textBox7
 			// 
@@ -248,7 +248,7 @@ namespace CppWinForm1 {
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(142, 20);
 			this->label5->TabIndex = 4;
-			this->label5->Text = L"Требуемые такты";
+			this->label5->Text = L"РўСЂРµР±СѓРµРјС‹Рµ С‚Р°РєС‚С‹";
 			this->label5->TextAlign = System::Drawing::ContentAlignment::TopCenter;
 			// 
 			// label4
@@ -258,7 +258,7 @@ namespace CppWinForm1 {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(186, 20);
 			this->label4->TabIndex = 3;
-			this->label4->Text = L"Требуемые процессоры";
+			this->label4->Text = L"РўСЂРµР±СѓРµРјС‹Рµ РїСЂРѕС†РµСЃСЃРѕСЂС‹";
 			this->label4->TextAlign = System::Drawing::ContentAlignment::TopCenter;
 			// 
 			// label3
@@ -268,7 +268,7 @@ namespace CppWinForm1 {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(244, 20);
 			this->label3->TabIndex = 2;
-			this->label3->Text = L"Вероятность создания задачи";
+			this->label3->Text = L"Р’РµСЂРѕСЏС‚РЅРѕСЃС‚СЊ СЃРѕР·РґР°РЅРёСЏ Р·Р°РґР°С‡Рё";
 			this->label3->TextAlign = System::Drawing::ContentAlignment::TopCenter;
 			// 
 			// label2
@@ -278,7 +278,7 @@ namespace CppWinForm1 {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(203, 20);
 			this->label2->TabIndex = 1;
-			this->label2->Text = L"Время выполнения такта";
+			this->label2->Text = L"Р’СЂРµРјСЏ РІС‹РїРѕР»РЅРµРЅРёСЏ С‚Р°РєС‚Р°";
 			this->label2->TextAlign = System::Drawing::ContentAlignment::TopCenter;
 			// 
 			// label1
@@ -288,7 +288,7 @@ namespace CppWinForm1 {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(201, 20);
 			this->label1->TabIndex = 0;
-			this->label1->Text = L"Количество процессоров";
+			this->label1->Text = L"РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРѕС†РµСЃСЃРѕСЂРѕРІ";
 			this->label1->TextAlign = System::Drawing::ContentAlignment::TopCenter;
 			// 
 			// groupBox2
@@ -299,7 +299,7 @@ namespace CppWinForm1 {
 			this->groupBox2->Size = System::Drawing::Size(404, 472);
 			this->groupBox2->TabIndex = 1;
 			this->groupBox2->TabStop = false;
-			this->groupBox2->Text = L"Статистика";
+			this->groupBox2->Text = L"РЎС‚Р°С‚РёСЃС‚РёРєР°";
 			// 
 			// label6
 			// 
@@ -317,7 +317,7 @@ namespace CppWinForm1 {
 			this->groupBox3->Size = System::Drawing::Size(929, 164);
 			this->groupBox3->TabIndex = 2;
 			this->groupBox3->TabStop = false;
-			this->groupBox3->Text = L"Лог";
+			this->groupBox3->Text = L"Р›РѕРі";
 			// 
 			// listBox1
 			// 
@@ -341,7 +341,7 @@ namespace CppWinForm1 {
 			this->groupBox4->Size = System::Drawing::Size(219, 1225);
 			this->groupBox4->TabIndex = 3;
 			this->groupBox4->TabStop = false;
-			this->groupBox4->Text = L"Задачи";
+			this->groupBox4->Text = L"Р—Р°РґР°С‡Рё";
 			// 
 			// label8
 			// 
@@ -350,7 +350,7 @@ namespace CppWinForm1 {
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(84, 20);
 			this->label8->TabIndex = 3;
-			this->label8->Text = L"Процессы";
+			this->label8->Text = L"РџСЂРѕС†РµСЃСЃС‹";
 			// 
 			// listBox3
 			// 
@@ -368,7 +368,7 @@ namespace CppWinForm1 {
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(77, 20);
 			this->label7->TabIndex = 1;
-			this->label7->Text = L"Очередь";
+			this->label7->Text = L"РћС‡РµСЂРµРґСЊ";
 			// 
 			// listBox2
 			// 
@@ -387,7 +387,7 @@ namespace CppWinForm1 {
 			this->groupBox5->Size = System::Drawing::Size(929, 752);
 			this->groupBox5->TabIndex = 4;
 			this->groupBox5->TabStop = false;
-			this->groupBox5->Text = L"Процессоры";
+			this->groupBox5->Text = L"РџСЂРѕС†РµСЃСЃРѕСЂС‹";
 			// 
 			// tableLayoutPanel1
 			// 
@@ -414,7 +414,7 @@ namespace CppWinForm1 {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(131, 62);
 			this->button1->TabIndex = 5;
-			this->button1->Text = L"Старт";
+			this->button1->Text = L"РЎС‚Р°СЂС‚";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -424,7 +424,7 @@ namespace CppWinForm1 {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(126, 62);
 			this->button2->TabIndex = 6;
-			this->button2->Text = L"Стоп";
+			this->button2->Text = L"РЎС‚РѕРї";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
@@ -439,7 +439,7 @@ namespace CppWinForm1 {
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(112, 62);
 			this->button4->TabIndex = 7;
-			this->button4->Text = L"Очистить";
+			this->button4->Text = L"РћС‡РёСЃС‚РёС‚СЊ";
 			this->button4->UseVisualStyleBackColor = true;
 			this->button4->Click += gcnew System::EventHandler(this, &MyForm::button4_Click);
 			// 
@@ -450,7 +450,7 @@ namespace CppWinForm1 {
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(134, 20);
 			this->label9->TabIndex = 12;
-			this->label9->Text = L"Размер очереди";
+			this->label9->Text = L"Р Р°Р·РјРµСЂ РѕС‡РµСЂРµРґРё";
 			// 
 			// textBox8
 			// 
@@ -476,7 +476,7 @@ namespace CppWinForm1 {
 			this->Controls->Add(this->groupBox1);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
 			this->Name = L"MyForm";
-			this->Text = L"Эмулятор работы многопроцессорной системы";
+			this->Text = L"Р­РјСѓР»СЏС‚РѕСЂ СЂР°Р±РѕС‚С‹ РјРЅРѕРіРѕРїСЂРѕС†РµСЃСЃРѕСЂРЅРѕР№ СЃРёСЃС‚РµРјС‹";
 			this->groupBox1->ResumeLayout(false);
 			this->groupBox1->PerformLayout();
 			this->groupBox2->ResumeLayout(false);
@@ -515,7 +515,7 @@ namespace CppWinForm1 {
 	}
 
 	private: void tryCreateNewTask() {
-		// Создание задачи (по вероятности) id:кол-во процессоров, кол-во тактов
+		// РЎРѕР·РґР°РЅРёРµ Р·Р°РґР°С‡Рё (РїРѕ РІРµСЂРѕСЏС‚РЅРѕСЃС‚Рё) id:РєРѕР»-РІРѕ РїСЂРѕС†РµСЃСЃРѕСЂРѕРІ, РєРѕР»-РІРѕ С‚Р°РєС‚РѕРІ
 		if ((double)rand() / (RAND_MAX) <= this->taskProbability) {
 			Task task;
 
@@ -526,7 +526,7 @@ namespace CppWinForm1 {
 			PushQueue(task);
 
 			this->listBox1->Items->Add(gcnew String(
-				std::format("Задача {}, состоящая из {} тактов, требующая {} процессоров, постуает в очередь", task.id, task.tactCount, task.procCount).c_str())
+				std::format("Р—Р°РґР°С‡Р° {}, СЃРѕСЃС‚РѕСЏС‰Р°СЏ РёР· {} С‚Р°РєС‚РѕРІ, С‚СЂРµР±СѓСЋС‰Р°СЏ {} РїСЂРѕС†РµСЃСЃРѕСЂРѕРІ, РїРѕСЃС‚СѓР°РµС‚ РІ РѕС‡РµСЂРµРґСЊ", task.id, task.tactCount, task.procCount).c_str())
 			);
 			this->listBox1->TopIndex = this->listBox1->Items->Count - 1;
 		}
@@ -535,13 +535,13 @@ namespace CppWinForm1 {
 	private: void updateStatistic()
 	{
 		std::string formated =
-			std::format("Выполнено тактов: {}\n", this->statistic->tactCount) +
-			std::format("Среденее кол-во занятых процессоров: {:.2f}\n", this->statistic->middleBusyProcessor) +
-			std::format("Общее кол-во тактов бездействия: {}\n", this->statistic->tactInactionCount) +
-			std::format("Кол-во выполняемых задач: {}\n", this->statistic->taskInWorkCount) +
-			std::format("Кол-во задач в очереди: {}\n", this->taskQueue->GetCount()) +
-			std::format("Выполнено задач: {}\n", this->statistic->taskComplitedCount) +
-			std::format("Всего задач поступило: {}", this->statistic->taskCount);
+			std::format("Р’С‹РїРѕР»РЅРµРЅРѕ С‚Р°РєС‚РѕРІ: {}\n", this->statistic->tactCount) +
+			std::format("РЎСЂРµРґРµРЅРµРµ РєРѕР»-РІРѕ Р·Р°РЅСЏС‚С‹С… РїСЂРѕС†РµСЃСЃРѕСЂРѕРІ: {:.2f}\n", this->statistic->middleBusyProcessor) +
+			std::format("РћР±С‰РµРµ РєРѕР»-РІРѕ С‚Р°РєС‚РѕРІ Р±РµР·РґРµР№СЃС‚РІРёСЏ: {}\n", this->statistic->tactInactionCount) +
+			std::format("РљРѕР»-РІРѕ РІС‹РїРѕР»РЅСЏРµРјС‹С… Р·Р°РґР°С‡: {}\n", this->statistic->taskInWorkCount) +
+			std::format("РљРѕР»-РІРѕ Р·Р°РґР°С‡ РІ РѕС‡РµСЂРµРґРё: {}\n", this->taskQueue->GetCount()) +
+			std::format("Р’С‹РїРѕР»РЅРµРЅРѕ Р·Р°РґР°С‡: {}\n", this->statistic->taskComplitedCount) +
+			std::format("Р’СЃРµРіРѕ Р·Р°РґР°С‡ РїРѕСЃС‚СѓРїРёР»Рѕ: {}", this->statistic->taskCount);
 
 		label6->Text = gcnew String(formated.c_str());
 	}
@@ -619,7 +619,7 @@ namespace CppWinForm1 {
 			std::string status;
 
 			if (task.procCount <= freeProcessors) {
-				status = std::format("Задача {}, требующая {} процессоров, поступает на процессоры",
+				status = std::format("Р—Р°РґР°С‡Р° {}, С‚СЂРµР±СѓСЋС‰Р°СЏ {} РїСЂРѕС†РµСЃСЃРѕСЂРѕРІ, РїРѕСЃС‚СѓРїР°РµС‚ РЅР° РїСЂРѕС†РµСЃСЃРѕСЂС‹",
 					task.id, task.procCount);
 				auto listBoxItem = gcnew String(
 					std::format("{}:{},{}", task.id, task.procCount, task.tactCount).c_str()
@@ -639,7 +639,7 @@ namespace CppWinForm1 {
 			}
 			else {
 				PushQueue(task);
-				status = std::format("Задачу {}, требующую {} процессоров, невозможно выполнить, в данный момент свободных процессоров {}",
+				status = std::format("Р—Р°РґР°С‡Сѓ {}, С‚СЂРµР±СѓСЋС‰СѓСЋ {} РїСЂРѕС†РµСЃСЃРѕСЂРѕРІ, РЅРµРІРѕР·РјРѕР¶РЅРѕ РІС‹РїРѕР»РЅРёС‚СЊ, РІ РґР°РЅРЅС‹Р№ РјРѕРјРµРЅС‚ СЃРІРѕР±РѕРґРЅС‹С… РїСЂРѕС†РµСЃСЃРѕСЂРѕРІ {}",
 					task.id, task.procCount, freeProcessors);
 			}
 			this->listBox1->Items->Add(gcnew String(status.c_str()));
@@ -713,7 +713,7 @@ namespace CppWinForm1 {
 			this->timer1->Enabled = true;
 		}
 		catch (FormatException^ e) {
-			MessageBox::Show("Ошибка ввода");
+			MessageBox::Show("РћС€РёР±РєР° РІРІРѕРґР°");
 		}
 	}
 
