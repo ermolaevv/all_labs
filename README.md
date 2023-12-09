@@ -1,5 +1,6 @@
 # Лабораторные работы по курсу "Алгоритмы и структуры данных"
-![](https://tokei.rs/b1/github/ermolaevv/all_labs)
+<!-- ![](https://tokei.rs/b1/github/ermolaevv/all_labs) -->
+![](https://tokei.ekzhang.com/b1/github/ermolaevv/all_labs)
 
 ## Используемые инструменты
 
