@@ -7,7 +7,7 @@
 template<class T>
 class TRootLink {
 protected:
-	TRootLink<T>* pNext; // указатель на следующее звено
+	TRootLink<T>* pNext; // СѓРєР°Р·Р°С‚РµР»СЊ РЅР° СЃР»РµРґСѓСЋС‰РµРµ Р·РІРµРЅРѕ
 public:
 	TRootLink(TRootLink<T>* pN = NULL) { pNext = pN; }
 	TRootLink<T>* GetNextLink(void) { return pNext; }

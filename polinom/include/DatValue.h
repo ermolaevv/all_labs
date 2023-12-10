@@ -3,7 +3,7 @@
 
 class TDatValue {
 public:
-	virtual TDatValue* GetCopy(void) const = 0; // создание копии
+	virtual TDatValue* GetCopy(void) const = 0; // СЃРѕР·РґР°РЅРёРµ РєРѕРїРёРё
 	~TDatValue(void) {}
 };
 

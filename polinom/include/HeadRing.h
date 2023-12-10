@@ -6,15 +6,15 @@
 template<class T>
 class THeadRing : public TDatList<T> {
 protected:
-	TDatLink<T>* pHead; // заголовок, pFirst - звено за pHead
+	TDatLink<T>* pHead; // Р·Р°РіРѕР»РѕРІРѕРє, pFirst - Р·РІРµРЅРѕ Р·Р° pHead
 public:
 	THeadRing(void);
 	THeadRing(const THeadRing& q);
 	~THeadRing(void);
-	// вставка звеньев
-	virtual void InsFirst(T* pVal = NULL); // после заголовка
-	// удаление звеньев
-	virtual void DelFirst(void); // удалить первое звено
+	// РІСЃС‚Р°РІРєР° Р·РІРµРЅСЊРµРІ
+	virtual void InsFirst(T* pVal = NULL); // РїРѕСЃР»Рµ Р·Р°РіРѕР»РѕРІРєР°
+	// СѓРґР°Р»РµРЅРёРµ Р·РІРµРЅСЊРµРІ
+	virtual void DelFirst(void); // СѓРґР°Р»РёС‚СЊ РїРµСЂРІРѕРµ Р·РІРµРЅРѕ
 	int GoNext(void) override;
 	void InsCurrent(T* pVal) override;
 	void InsLast(T* pVal) override;

@@ -8,8 +8,8 @@
 
 class TMonom : public TDatValue {
 protected:
-	double Coeff; // коэффициент монома
-	int CountDeg; // индекс (свертка степеней)
+	double Coeff; // РєРѕСЌС„С„РёС†РёРµРЅС‚ РјРѕРЅРѕРјР°
+	int CountDeg; // РёРЅРґРµРєСЃ (СЃРІРµСЂС‚РєР° СЃС‚РµРїРµРЅРµР№)
 	int* Deg;
 public:
 	TMonom(const double cval = 1, const int ival = 0, const int* deg = NULL);
@@ -18,7 +18,7 @@ public:
 	virtual TMonom* GetCopy(void) const
 	{
 		return new TMonom(*this);
-	} // изготовить копию
+	} // РёР·РіРѕС‚РѕРІРёС‚СЊ РєРѕРїРёСЋ
 	void SetCoeff(const double cval) { Coeff = cval; }
 	double GetCoeff(void) const { return Coeff; }
 
@@ -317,7 +317,7 @@ std::string TMonom::ToString()
     if (coef == (int)coef)
         res += std::to_string((int)coef);
     else
-        res += std::to_string(round(coef * 100) / 100);
+        res += std::to_string(round(coef * 100000) / 100000);
     if (coef != 0)
     {
         for (int i = 0; i < CountDeg; i++)
