@@ -9,4 +9,5 @@ if((${CMAKE_CXX_COMPILER_ID} MATCHES "GNU" OR
     set(pthread "-pthread")
 endif()
 
+target_compile_options(${target} PUBLIC /wd"4996" /wd"4002")
 target_link_libraries(${target} ${pthread})

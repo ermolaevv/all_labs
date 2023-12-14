@@ -10,7 +10,8 @@ foreach(sample_filename ${samples_list})
   add_executable(${sample} ${sample_filename})
   target_link_libraries(${sample} PRIVATE ${nameBaseProj})
   set_target_properties(${sample} PROPERTIES
-    OUTPUT_NAME "${sample}"
-    PROJECT_LABEL "${sample}"
-    RUNTIME_OUTPUT_DIRECTORY "../")
+        FOLDER ${nameBaseProj}
+        OUTPUT_NAME "${sample}"
+        PROJECT_LABEL "${sample}"
+        RUNTIME_OUTPUT_DIRECTORY "../")
 endforeach()
